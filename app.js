@@ -17,7 +17,7 @@ const corsOptions = {
   origin: "http://localhost:5173", // Replace with the allowed origin
 };
 
-app.use(cors(corsOptions));
+app.use(cors());
 
 
 //user routes middleware file
